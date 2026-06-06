@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucy's Corner 🐾 — A Cocker Spaniel's World</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:    #f59e0b;
+      --orange:  #f97316;
+      --rose:    #fb7185;
+      --teal:    #14b8a6;
+      --brown:   #78350f;
+      --cream:   #fffbf0;
+      --dark:    #1c0a00;
+      --card:    #fff8ed;
+      --text:    #1c0a00;
+      --muted:   #78350f;
+      --border:  #fde68a;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 6%;
+      background: #fff;
+      border-bottom: 3px solid var(--gold);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(245,158,11,0.15);
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      background: linear-gradient(90deg, var(--orange), var(--rose));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .nav-links { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--orange); }
+    .btn-nav {
+      background: linear-gradient(135deg, var(--orange), var(--rose));
+      color: #fff !important;
+      padding: 0.45rem 1.1rem;
+      border-radius: 100px;
+      font-weight: 700 !important;
+      box-shadow: 0 2px 10px rgba(249,115,22,0.3);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 5rem 6% 4rem;
+      background: linear-gradient(160deg, #fff7e6 0%, #fef3c7 50%, #ffe4e6 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '🐾';
+      position: absolute;
+      font-size: 18rem;
+      opacity: 0.04;
+      top: -2rem;
+      left: -3rem;
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '🐾';
+      position: absolute;
+      font-size: 14rem;
+      opacity: 0.04;
+      bottom: -2rem;
+      right: -2rem;
+      pointer-events: none;
+    }
+    .paw-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold), var(--orange));
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.35rem 1.1rem;
+      border-radius: 100px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 14px rgba(245,158,11,0.35);
+    }
+    h1 {
+      font-size: clamp(2.8rem, 7vw, 5rem);
+      font-weight: 900;
+      line-height: 1.05;
+      margin-bottom: 1.2rem;
+      letter-spacing: -0.02em;
+    }
+    h1 .accent {
+      background: linear-gradient(90deg, var(--orange), var(--rose), var(--gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-sub {
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 560px;
+      margin: 0 auto 2.5rem;
+      font-weight: 500;
+    }
+    .hero-ctas { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--orange), var(--rose));
+      color: #fff;
+      padding: 0.85rem 2rem;
+      border-radius: 100px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1rem;
+      box-shadow: 0 6px 20px rgba(249,115,22,0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(249,115,22,0.45); }
+    .btn-secondary {
+      background: #fff;
+      border: 2px solid var(--gold);
+      color: var(--brown);
+      padding: 0.85rem 2rem;
+      border-radius: 100px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+    .btn-secondary:hover { background: #fef9ec; }
+
+    /* ── ABOUT ── */
+    .about {
+      padding: 5rem 6%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      background: #fff;
+    }
+    @media (max-width: 700px) { .about { grid-template-columns: 1fr; gap: 2rem; } }
+    .about-img {
+      border-radius: 24px;
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      box-shadow: 0 20px 60px rgba(245,158,11,0.2);
+      border: 4px solid var(--gold);
+    }
+    .about-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.2rem; }
+    .tag {
+      background: #fef3c7;
+      border: 1.5px solid var(--gold);
+      color: var(--brown);
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 0.3rem 0.85rem;
+      border-radius: 100px;
+    }
+
+    /* ── SECTION SHARED ── */
+    .section-label {
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--orange);
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+    .section-sub { color: var(--muted); font-size: 1rem; max-width: 520px; font-weight: 500; }
+    .divider {
+      height: 4px;
+      background: linear-gradient(90deg, var(--gold), var(--orange), var(--rose));
+      border-radius: 4px;
+      width: 60px;
+      margin: 1rem 0 2rem;
+    }
+
+    /* ── GALLERY ── */
+    #gallery { padding: 5rem 6%; background: var(--cream); }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery-card {
+      border-radius: 16px;
+      overflow: hidden;
+      aspect-ratio: 1;
+      background: linear-gradient(135deg, #fde68a, #fdba74);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      box-shadow: 0 4px 20px rgba(245,158,11,0.15);
+      border: 3px solid #fff;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      position: relative;
+    }
+    .gallery-card:hover { transform: scale(1.04); box-shadow: 0 10px 30px rgba(249,115,22,0.25); }
+    .gallery-card:nth-child(2) { background: linear-gradient(135deg, #fca5a5, #fb7185); }
+    .gallery-card:nth-child(3) { background: linear-gradient(135deg, #86efac, #14b8a6); }
+    .gallery-card:nth-child(4) { background: linear-gradient(135deg, #c4b5fd, #a78bfa); }
+    .gallery-card:nth-child(5) { background: linear-gradient(135deg, #fdba74, #f59e0b); }
+    .gallery-card:nth-child(6) { background: linear-gradient(135deg, #93c5fd, #60a5fa); }
+    .gallery-label {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: rgba(0,0,0,0.45);
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.4rem 0.6rem;
+      text-align: center;
+    }
+    .gallery-link {
+      display: block;
+      margin-top: 1.5rem;
+      text-align: center;
+      color: var(--orange);
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .gallery-link:hover { text-decoration: underline; }
+
+    /* ── BLOG ── */
+    #blog { padding: 5rem 6%; background: #fff; }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .blog-card {
+      border-radius: 20px;
+      overflow: hidden;
+      background: var(--card);
+      border: 2px solid var(--border);
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .blog-card:hover { transform: translateY(-4px); border-color: var(--orange); box-shadow: 0 12px 30px rgba(249,115,22,0.15); }
+    .blog-card-img {
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+    }
+    .bc1 { background: linear-gradient(135deg, #fde68a, #fdba74); }
+    .bc2 { background: linear-gradient(135deg, #fca5a5, #fb7185); }
+    .bc3 { background: linear-gradient(135deg, #86efac, #14b8a6); }
+    .blog-card-body { padding: 1.2rem 1.4rem 1.4rem; }
+    .blog-date { font-size: 0.78rem; color: var(--muted); font-weight: 600; margin-bottom: 0.4rem; }
+    .blog-card-body h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: 0.4rem; line-height: 1.3; }
+    .blog-card-body p { color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
+    .read-more { display: inline-block; margin-top: 0.8rem; color: var(--orange); font-weight: 700; font-size: 0.88rem; }
+
+    /* ── SHOP ── */
+    #shop { padding: 5rem 6%; background: linear-gradient(160deg, #fff7e6, #fef3c7 60%, #ffe4e6); }
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .shop-card {
+      border-radius: 20px;
+      background: #fff;
+      border: 2px solid var(--border);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .shop-card:hover { transform: translateY(-4px); box-shadow: 0 14px 36px rgba(245,158,11,0.2); }
+    .shop-img {
+      height: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+    }
+    .si1 { background: linear-gradient(135deg, #fde68a, #fdba74); }
+    .si2 { background: linear-gradient(135deg, #fca5a5, #fb7185); }
+    .si3 { background: linear-gradient(135deg, #c4b5fd, #a78bfa); }
+    .si4 { background: linear-gradient(135deg, #86efac, #14b8a6); }
+    .shop-body { padding: 1.1rem 1.3rem 1.3rem; }
+    .shop-body h3 { font-size: 1rem; font-weight: 800; margin-bottom: 0.25rem; }
+    .shop-body p { color: var(--muted); font-size: 0.84rem; margin-bottom: 0.75rem; }
+    .shop-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--orange), var(--rose));
+      color: #fff;
+      padding: 0.4rem 1rem;
+      border-radius: 100px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .affiliate-note {
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ── CTA / GITHUB ── */
+    .cta-section {
+      padding: 5rem 6%;
+      text-align: center;
+      background: linear-gradient(135deg, #1c0a00, #3b1200);
+      color: #fff;
+    }
+    .cta-section .section-label { color: var(--gold); }
+    .cta-section h2 { color: #fff; }
+    .cta-section p { color: #d97706; font-size: 1.05rem; margin-bottom: 2rem; max-width: 520px; margin-left: auto; margin-right: auto; }
+    .github-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: #fff;
+      color: var(--dark);
+      padding: 0.85rem 2rem;
+      border-radius: 100px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1rem;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    .github-btn:hover { transform: translateY(-2px); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 2rem 6%;
+      background: #fff;
+      border-top: 3px solid var(--gold);
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+    footer a { color: var(--orange); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">🐾 Lucy's Corner</div>
+  <div class="nav-links">
+    <a href="#about">About Lucy</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#blog">Updates</a>
+    <a href="#shop">Shop</a>
+    <a href="https://github.com/amotremba/Lucyscorner" target="_blank" class="btn-nav">⭐ GitHub</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="paw-badge">🐾 Welcome to Lucy's World</div>
+  <h1>Life with <span class="accent">Lucy</span><br>the Cocker Spaniel 🐶</h1>
+  <p class="hero-sub">
+    Follow the adventures of Lucy — a 6-year-old Cocker Spaniel and her human companion. Photos, stories, and her favorite finds, all in one cozy corner.
+  </p>
+  <div class="hero-ctas">
+    <a href="#gallery" class="btn-primary">📸 See the Gallery</a>
+    <a href="#blog" class="btn-secondary">📖 Read Updates</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="lucy.jpg" alt="Lucy the Cocker Spaniel" />
+  </div>
+  <div>
+    <div class="section-label">Meet Lucy</div>
+    <h2>A good girl through<br>and through</h2>
+    <div class="divider"></div>
+    <p style="color:var(--muted); font-size:1rem; line-height:1.75;">
+      Lucy is a 6-year-old Cocker Spaniel with floppy ears, endless energy, and a talent for stealing hearts (and socks). She lives with her human companion, who documents every tail wag, park adventure, and nap session for the world to enjoy.
+    </p>
+    <p style="color:var(--muted); font-size:1rem; line-height:1.75; margin-top:1rem;">
+      This is Lucy's corner of the internet — a place to share her world, the products she loves, and the stories that make every dog day golden.
+    </p>
+    <div class="tag-row">
+      <span class="tag">🐾 Cocker Spaniel</span>
+      <span class="tag">🎾 Fetch Enthusiast</span>
+      <span class="tag">🛁 Occasional Bather</span>
+      <span class="tag">😴 Nap Champion</span>
+      <span class="tag">🌳 Park Explorer</span>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-label">Gallery</div>
+  <h2>Lucy in Action 📸</h2>
+  <div class="divider"></div>
+  <p class="section-sub">The best moments, captured. Link your photo albums (Instagram, Google Photos, Flickr) to fill this section with the real Lucy.</p>
+
+  <div class="gallery-grid">
+    <div class="gallery-card" style="background:none; padding:0;">
+      <img src="lucy.jpg" alt="Lucy the Cocker Spaniel" style="width:100%;height:100%;object-fit:cover;display:block;" />
+      <span class="gallery-label">Lucy 🐾</span>
+    </div>
+    <div class="gallery-card">🌸<span class="gallery-label">Spring Walk</span></div>
+    <div class="gallery-card">🎾<span class="gallery-label">Fetch Time</span></div>
+    <div class="gallery-card">😴<span class="gallery-label">Nap O'Clock</span></div>
+    <div class="gallery-card">🛁<span class="gallery-label">Bath Day</span></div>
+    <div class="gallery-card">🍂<span class="gallery-label">Autumn Vibes</span></div>
+  </div>
+
+  <!-- Swap href with your real photo album link -->
+  <a href="#" class="gallery-link">📷 View full photo album →</a>
+</section>
+
+<!-- BLOG / UPDATES -->
+<section id="blog">
+  <div class="section-label">Updates</div>
+  <h2>Lucy's Latest Adventures 📖</h2>
+  <div class="divider"></div>
+  <p class="section-sub">Stories, milestones, and everyday moments. Link each card to your blog, Substack, or Medium posts.</p>
+
+  <div class="blog-grid">
+    <!-- Swap href with your blog post links -->
+    <a href="#" class="blog-card">
+      <div class="blog-card-img bc1">🌳</div>
+      <div class="blog-card-body">
+        <div class="blog-date">June 2026</div>
+        <h3>Lucy Discovers Her Favorite Park Trail</h3>
+        <p>Three miles, two squirrels, and one very tired Spaniel. Here's how our Saturday unfolded…</p>
+        <span class="read-more">Read more →</span>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-img bc2">🎂</div>
+      <div class="blog-card-body">
+        <div class="blog-date">May 2026</div>
+        <h3>Happy 6th Birthday, Lucy!</h3>
+        <p>We celebrated with a homemade pup-cake, a new squeaky toy, and far too many photos…</p>
+        <span class="read-more">Read more →</span>
+      </div>
+    </a>
+    <a href="#" class="blog-card">
+      <div class="blog-card-img bc3">🏖️</div>
+      <div class="blog-card-body">
+        <div class="blog-date">April 2026</div>
+        <h3>Lucy's First Beach Trip</h3>
+        <p>Sand between her paws, waves she wasn't sure about, and a full nap on the drive home…</p>
+        <span class="read-more">Read more →</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section id="shop">
+  <div class="section-label">Shop</div>
+  <h2>Lucy's Favorite Things 🛍️</h2>
+  <div class="divider"></div>
+  <p class="section-sub">Products Lucy actually uses and loves — from her bed to her favorite treats. Links go to affiliated retailers.</p>
+
+  <div class="shop-grid">
+    <!-- Swap href with real affiliate or product links -->
+    <a href="#" class="shop-card">
+      <div class="shop-img si1">🛏️</div>
+      <div class="shop-body">
+        <h3>Her Cozy Bed</h3>
+        <p>Lucy's go-to nap spot. Orthopedic, washable, and spaniel-approved.</p>
+        <span class="shop-btn">Shop Now →</span>
+      </div>
+    </a>
+    <a href="#" class="shop-card">
+      <div class="shop-img si2">🦮</div>
+      <div class="shop-body">
+        <h3>Favorite Harness</h3>
+        <p>No-pull, comfy, and matches her floppy ear energy perfectly.</p>
+        <span class="shop-btn">Shop Now →</span>
+      </div>
+    </a>
+    <a href="#" class="shop-card">
+      <div class="shop-img si3">🧸</div>
+      <div class="shop-body">
+        <h3>The Squeaky Toy</h3>
+        <p>Survived 6 months. A true miracle of modern pet engineering.</p>
+        <span class="shop-btn">Shop Now →</span>
+      </div>
+    </a>
+    <a href="#" class="shop-card">
+      <div class="shop-img si4">🦷</div>
+      <div class="shop-body">
+        <h3>Dental Chews</h3>
+        <p>Keeps her teeth clean and her breath tolerable. Mostly.</p>
+        <span class="shop-btn">Shop Now →</span>
+      </div>
+    </a>
+  </div>
+
+  <p class="affiliate-note">* Some links are affiliate links. Lucy gets kibble credits when you shop. 🐾</p>
+</section>
+
+<!-- GITHUB CTA -->
+<section class="cta-section">
+  <div class="section-label">Open Source</div>
+  <h2>This site is on GitHub 💛</h2>
+  <p>Built with love for Lucy. Star the repo, fork it for your own pup, or open a PR to add your dog's story.</p>
+  <a href="https://github.com/amotremba/Lucyscorner" target="_blank" class="github-btn">
+    <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    View on GitHub
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>🐾 Lucy's Corner · <a href="https://github.com/amotremba/Lucyscorner" target="_blank">github.com/amotremba/Lucyscorner</a> · Made with love by Lucy's human</p>
+</footer>
+
+</body>
+</html>
