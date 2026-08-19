@@ -1,25 +1,30 @@
 ---
 layout: base
 ---
-<div class="page-header">
-  <div class="paw-badge">🐾 From the Blog</div>
-  <h1>{{ page.title }}</h1>
-</div>
+<header style="max-width:700px; margin:0 auto; padding:56px 32px 0;">
+  <a href="{{ '/blog/' | relative_url }}" style="font-weight:600; font-size:14px;">← Back to all adventures</a>
+</header>
 
-<main>
-  <a href="{{ '/blog/' | relative_url }}" class="back-link">← Back to all posts</a>
+<article style="max-width:700px; margin:0 auto; padding:24px 32px 88px;">
+  {% if page.tag %}
+  <span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">{{ page.tag }}</span>
+  {% endif %}
+  <h1 style="font-family:'Lora',serif; font-size:clamp(28px,5vw,40px); color:oklch(28% 0.03 40); margin:10px 0 8px; line-height:1.2;">{{ page.title }}</h1>
+  <p style="font-size:14px; color:oklch(50% 0.02 50); margin:0 0 32px;">{{ page.date | date: "%B %-d, %Y" }}</p>
 
-  <article>
-    <div class="post-header">
-      <div class="blog-date">{{ page.date | date: "%B %-d, %Y" }}</div>
-    </div>
-    <div class="post-content">
-      {{ content }}
-    </div>
-  </article>
-
-  <div class="post-cta">
-    <p>More Lucy in your feed? Follow along for the next adventure.</p>
-    <a href="{{ '/' | relative_url }}#shop" class="btn-primary">🛍️ See Lucy's Favorite Things</a>
+  <div style="font-size:17px; color:oklch(32% 0.03 45); line-height:1.8;">
+    {{ content }}
   </div>
-</main>
+
+  <div style="margin-top:48px; padding:28px; border-radius:18px; background:oklch(93% 0.02 65); text-align:center;">
+    <p style="margin:0 0 16px; font-weight:700; color:oklch(28% 0.03 40);">More Lucy in your feed?</p>
+    <a href="{{ '/' | relative_url }}#shop" style="background:oklch(56% 0.11 40); color:oklch(98% 0.01 70); padding:12px 26px; border-radius:100px; font-weight:700; font-size:14px; display:inline-block;">See Lucy's Favorite Things →</a>
+  </div>
+</article>
+
+<style>
+  article div h2 { font-family:'Lora',serif; font-size:22px; color:oklch(28% 0.03 40); margin:32px 0 12px; }
+  article div p { margin:0 0 20px; }
+  article div ul, article div ol { margin:0 0 20px 22px; }
+  article div img { max-width:100%; border-radius:16px; margin:24px 0; }
+</style>

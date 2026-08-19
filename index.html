@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,32 +92,17 @@
       <h2 style="font-family:'Lora',serif; font-size:32px; margin:8px 0 0; color:oklch(28% 0.03 40);">Stories from Lucy's life</h2>
     </div>
     <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px;">
-      <a href="#" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
-        <span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">CABIN TRIPS</span>
-        <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">Trails Over Swimming, Every Time</h3>
-        <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">Lucy still wants nothing to do with the water at the cabin, but she's happiest on the hiking trails — and getting much better about not barking at fellow hikers.</p>
+      {% for post in site.posts limit:6 %}
+      <a href="{{ post.url | relative_url }}" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
+        {% if post.tag %}<span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">{{ post.tag }}</span>{% endif %}
+        <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">{{ post.title }}</h3>
+        <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">{{ post.excerpt | strip_html | truncate: 140 }}</p>
       </a>
-      <a href="#" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
-        <span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">JULY 2023</span>
-        <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">Finding Her Forever Home</h3>
-        <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">How one nervous rescue pup became the loudest personality in the house.</p>
-      </a>
-      <a href="#" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
-        <span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">SUMMER</span>
-        <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">Lake Day (Very Politely)</h3>
-        <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">Lucy visits the lake and keeps her paws mostly dry, thank you very much.</p>
-      </a>
-      <a href="#" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
-        <span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">FALL</span>
-        <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">The Great Squirrel Standoff</h3>
-        <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">A window, a squirrel, and thirty minutes neither side was willing to concede.</p>
-      </a>
-      <a href="#" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
-        <span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">BEAR COUNTRY</span>
-        <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">On Bear Watch at the Park</h3>
-        <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">Ever since the neighbor spotted a bear, Lucy's sniffer has been working overtime on every park trip — full alert, nose to the ground.</p>
-      </a>
+      {% endfor %}
     </div>
+    <p style="text-align:center; margin-top:36px;">
+      <a href="{{ '/blog/' | relative_url }}" style="font-weight:700;">See all of Lucy's adventures →</a>
+    </p>
   </section>
 
   <!-- SHOP -->

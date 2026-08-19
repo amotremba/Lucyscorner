@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% if page.title %}{{ page.title }} — {% endif %}Lucy's Corner 🐾</title>
-  <link rel="alternate" type="application/rss+xml" title="Lucy's Corner" href="{{ '/blog/feed.xml' | relative_url }}" />
-  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {% endif %}Lucy's Corner</title>
+<link rel="alternate" type="application/rss+xml" title="Lucy's Corner" href="{{ '/blog/feed.xml' | relative_url }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; }
+  a { color: oklch(56% 0.11 40); text-decoration: none; }
+  a:hover { color: oklch(48% 0.11 40); }
+</style>
 </head>
 <body>
+<div style="font-family:'Nunito Sans',sans-serif; background:oklch(96% 0.018 70); color:oklch(26% 0.03 40); line-height:1.6;">
 
-<nav>
-  <a href="{{ '/' | relative_url }}" class="logo">🐾 Lucy's Corner</a>
-  <div class="nav-links">
-    <a href="{{ '/' | relative_url }}#about">About Lucy</a>
-    <a href="{{ '/' | relative_url }}#gallery">Gallery</a>
-    <a href="{{ '/blog/' | relative_url }}">Blog</a>
-    <a href="{{ '/' | relative_url }}#shop">Shop</a>
-    <a href="https://github.com/amotremba/Lucyscorner" target="_blank" class="btn-nav">⭐ GitHub</a>
-  </div>
-</nav>
+  <!-- NAV -->
+  <nav style="position:sticky; top:0; z-index:100; background:oklch(96% 0.018 70 / 0.92); backdrop-filter:blur(8px); border-bottom:1px solid oklch(87% 0.02 60); padding:16px 32px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+    <a href="{{ '/' | relative_url }}#top" style="font-family:'Lora',serif; font-weight:700; font-size:22px; color:oklch(30% 0.03 40); display:flex; align-items:center; gap:8px;">
+      <span style="width:10px; height:10px; border-radius:50%; background:oklch(56% 0.11 40); display:inline-block;"></span>
+      Lucy's Corner
+    </a>
+    <div style="display:flex; align-items:center; gap:24px; flex-wrap:wrap;">
+      <a href="{{ '/' | relative_url }}#about" style="color:oklch(35% 0.03 45); font-weight:600; font-size:15px;">About</a>
+      <a href="{{ '/' | relative_url }}#gallery" style="color:oklch(35% 0.03 45); font-weight:600; font-size:15px;">Gallery</a>
+      <a href="{{ '/blog/' | relative_url }}" style="color:oklch(35% 0.03 45); font-weight:600; font-size:15px;">Adventures</a>
+      <a href="{{ '/' | relative_url }}#shop" style="color:oklch(35% 0.03 45); font-weight:600; font-size:15px;">Shop</a>
+      <a href="https://anneotremba.substack.com" target="_blank" style="color:oklch(35% 0.03 45); font-weight:600; font-size:15px;">Substack</a>
+      <a href="https://github.com/amotremba/Lucyscorner" target="_blank" style="background:oklch(56% 0.11 40); color:oklch(98% 0.01 70); padding:10px 20px; border-radius:100px; font-weight:700; font-size:14px;">★ GitHub</a>
+    </div>
+  </nav>
 
-{{ content }}
+  {{ content }}
 
-<footer>
-  <p>🐾 Lucy's Corner · <a href="https://github.com/amotremba/Lucyscorner" target="_blank">github.com/amotremba/Lucyscorner</a> · Made with love by Lucy's human</p>
-</footer>
+  <!-- FOOTER -->
+  <footer style="border-top:1px solid oklch(87% 0.02 60); padding:32px; text-align:center; font-size:14px; color:oklch(50% 0.02 50);">
+    <a href="https://amotremba.github.io/Lucyscorner" target="_blank" style="color:oklch(50% 0.02 50); font-weight:600;">amotremba.github.io/Lucyscorner</a>
+    <span style="margin:0 10px;">&middot;</span>
+    Made with love by Lucy's human
+    <span style="margin:0 10px;">&middot;</span>
+    <a href="https://anneotremba.substack.com" target="_blank" style="color:oklch(50% 0.02 50); font-weight:600;">Read the Substack</a>
+  </footer>
 
+</div>
 </body>
 </html>

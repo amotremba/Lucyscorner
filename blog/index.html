@@ -1,25 +1,25 @@
 ---
 layout: base
-title: Blog
+title: Adventures
 ---
-<div class="page-header">
-  <div class="paw-badge">🐾 Updates</div>
-  <h1>Lucy's Latest Adventures</h1>
-  <p>Stories, milestones, and everyday moments — straight from Lucy's Corner.</p>
-</div>
-
-<main>
-  <div class="blog-grid">
+<section style="max-width:1080px; margin:0 auto; padding:64px 32px 88px;">
+  <div style="text-align:center; margin-bottom:44px;">
+    <span style="text-transform:uppercase; letter-spacing:1.5px; font-size:12px; font-weight:700; color:oklch(56% 0.11 40);">Adventures</span>
+    <h1 style="font-family:'Lora',serif; font-size:clamp(28px,5vw,36px); margin:8px 0 0; color:oklch(28% 0.03 40);">All of Lucy's Stories</h1>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px;">
     {% for post in site.posts %}
-    <a href="{{ post.url | relative_url }}" class="blog-card">
-      <div class="blog-card-img {{ post.card_class | default: 'bc1' }}">{{ post.emoji | default: '🐾' }}</div>
-      <div class="blog-card-body">
-        <div class="blog-date">{{ post.date | date: "%B %Y" }}</div>
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
-        <span class="read-more">Read more →</span>
-      </div>
+    <a href="{{ post.url | relative_url }}" style="display:block; background:oklch(93% 0.02 65); border-radius:18px; padding:28px; border:1px solid oklch(85% 0.02 60);">
+      {% if post.tag %}<span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">{{ post.tag }}</span>{% endif %}
+      <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">{{ post.title }}</h3>
+      <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">{{ post.excerpt | strip_html | truncate: 140 }}</p>
     </a>
     {% endfor %}
   </div>
-</main>
+</section>
+
+<style>
+  @media (max-width: 800px) {
+    section > div[style*="grid-template-columns:repeat(3,1fr)"] { grid-template-columns: 1fr !important; }
+  }
+</style>
