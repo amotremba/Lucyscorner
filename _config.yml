@@ -1,0 +1,16 @@
+title: Lucy's Corner
+description: >-
+  A warm little corner of the internet for Lucy, a rescue Cocker Spaniel —
+  photos, stories, and her favorite finds.
+url: "https://amotremba.github.io"
+baseurl: "/Lucyscorner"
+
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+markdown: kramdown

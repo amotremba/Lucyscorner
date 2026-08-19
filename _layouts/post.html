@@ -1,0 +1,25 @@
+---
+layout: base
+---
+<div class="page-header">
+  <div class="paw-badge">🐾 From the Blog</div>
+  <h1>{{ page.title }}</h1>
+</div>
+
+<main>
+  <a href="{{ '/blog/' | relative_url }}" class="back-link">← Back to all posts</a>
+
+  <article>
+    <div class="post-header">
+      <div class="blog-date">{{ page.date | date: "%B %-d, %Y" }}</div>
+    </div>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+
+  <div class="post-cta">
+    <p>More Lucy in your feed? Follow along for the next adventure.</p>
+    <a href="{{ '/' | relative_url }}#shop" class="btn-primary">🛍️ See Lucy's Favorite Things</a>
+  </div>
+</main>

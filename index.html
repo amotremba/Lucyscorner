@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -481,38 +483,22 @@
   <div class="section-label">Updates</div>
   <h2>Lucy's Latest Adventures 📖</h2>
   <div class="divider"></div>
-  <p class="section-sub">Stories, milestones, and everyday moments. Link each card to your blog, Substack, or Medium posts.</p>
+  <p class="section-sub">Stories, milestones, and everyday moments from Lucy's blog.</p>
 
   <div class="blog-grid">
-    <!-- Swap href with your blog post links -->
-    <a href="#" class="blog-card">
-      <div class="blog-card-img bc1">🌳</div>
+    {% for post in site.posts limit:3 %}
+    <a href="{{ post.url | relative_url }}" class="blog-card">
+      <div class="blog-card-img {{ post.card_class | default: 'bc1' }}">{{ post.emoji | default: '🐾' }}</div>
       <div class="blog-card-body">
-        <div class="blog-date">June 2026</div>
-        <h3>Lucy Discovers Her Favorite Park Trail</h3>
-        <p>Three miles, two squirrels, and one very tired Spaniel. Here's how our Saturday unfolded…</p>
+        <div class="blog-date">{{ post.date | date: "%B %Y" }}</div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 110 }}</p>
         <span class="read-more">Read more →</span>
       </div>
     </a>
-    <a href="#" class="blog-card">
-      <div class="blog-card-img bc2">🎂</div>
-      <div class="blog-card-body">
-        <div class="blog-date">May 2026</div>
-        <h3>Happy 6th Birthday, Lucy!</h3>
-        <p>We celebrated with a homemade pup-cake, a new squeaky toy, and far too many photos…</p>
-        <span class="read-more">Read more →</span>
-      </div>
-    </a>
-    <a href="#" class="blog-card">
-      <div class="blog-card-img bc3">🏖️</div>
-      <div class="blog-card-body">
-        <div class="blog-date">April 2026</div>
-        <h3>Lucy's First Beach Trip</h3>
-        <p>Sand between her paws, waves she wasn't sure about, and a full nap on the drive home…</p>
-        <span class="read-more">Read more →</span>
-      </div>
-    </a>
+    {% endfor %}
   </div>
+  <a href="{{ '/blog/' | relative_url }}" class="gallery-link">📖 View all posts →</a>
 </section>
 
 <!-- SHOP -->
