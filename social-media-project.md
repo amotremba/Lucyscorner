@@ -24,6 +24,34 @@ Tracks the Instagram + Facebook posting workflow for driving traffic to Lucy's C
 
 ---
 
+## Post #3 — "The New Pup Across the Street" (DRAFT — not yet scheduled)
+
+- **Photo:** TBD — Anne is adding new photos for this one. Unused-photo pool was otherwise empty (only off-theme `20260618_190037.jpg` left), so this cascade is holding for fresh material rather than reusing.
+- **Links to:** https://amotremba.github.io/Lucyscorner/blog/2026/09/01/the-new-pup-across-the-street/
+
+**Instagram caption:**
+> Lucy just found out the house across the street has a new resident: one (1) extremely young puppy with zero self-preservation instincts. 🐶👀 Verdict pending. More at the link in bio.
+>
+> #CockerSpaniel #RescueDog #DogsOfInstagram
+
+**Facebook caption:**
+> Lucy spotted the new neighbor through the window before we even knew there was one to see — a wobbly puppy about a third her size, already losing a fight with a leaf. First official meeting happened on today's walk, and it went... better than expected? Read the full introduction on Lucy's Corner 🐾
+>
+> (link: https://amotremba.github.io/Lucyscorner/blog/2026/09/01/the-new-pup-across-the-street/)
+
+**Pinterest story pin:**
+> Title: "The New Pup Across the Street"
+> Text: A new puppy moved in across the street, and Lucy has Opinions. Read the full first-meeting report on Lucy's Corner.
+
+**Pinterest quote pin:**
+> Title: "Threat level: reconsidered"
+> Text: "Threat level after seeing it fall over a leaf: significantly reduced." — Lucy's Corner, on meeting the new puppy next door.
+
+**Bluesky cross-post (new platform for the cascade, per growth plan's cross-post cadence — text-only, no photo needed):**
+> Lucy assessed the new puppy across the street as a high threat... right up until it fell over a leaf. Full report on Lucy's Corner: https://amotremba.github.io/Lucyscorner/blog/2026/09/01/the-new-pup-across-the-street/
+
+---
+
 ## Post #2 — "The Staring Contest With a Deer" (scheduled)
 
 - **Photo:** `lucy running from deer.png` (AI illustration, `Photos-1-001/`) for IG/FB and the Pinterest quote pin; `lucy chasing deer.png` for the Pinterest story pin — these were the only two unused deer-themed assets, so the quote pin reuses the IG/FB photo per the user's call (flagged first, per the fresh-photo rule).
