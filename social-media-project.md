@@ -33,11 +33,18 @@ Schedule: 2026-09-12 (Nap Bed), 09-14 (Leash), 09-16 (Lick Pad), 09-18 (Grooming
 ## Adventure Post — "Meeting the Collie Mix at the Cabin" (scheduled)
 
 - **Photo:** `lucymeetscolliemix.jpg` — Lucy nose-to-nose with a 6-month-old collie mix puppy, already noticeably bigger than her, met at the cabin. Fresh photo, added 2026-09-11.
+- **Blog post:** [`_posts/2026-09-11-meeting-the-collie-mix-at-the-cabin.md`](https://amotremba.github.io/Lucyscorner/blog/2026/09/11/meeting-the-collie-mix-at-the-cabin/) — written to match the photo, photo embedded inline
 - **Scheduled:** IG + FB + Bluesky, 2026-09-13, 10:00 AM CDT (fills an "in-between" day in the shop spotlight cadence, per the user's request)
-- **Blotato IDs:** Instagram `e5dc31e7-07d3-4309-8fae-0a9c8d958289` · Facebook `2333a08e-771c-419c-ac1e-6a1d85a81b01` · Bluesky `fb70163e-f22d-4a2f-b1f8-3738438deab8`
-- **Links to:** homepage (no matching blog post exists yet for this story)
+- **Blotato schedule IDs:** Instagram `4364958` · Facebook `4364960` (links to the story) · Bluesky `4364961` (links to the story)
 
-Only one adventure photo was on hand, so the other in-between days (09-15, 09-17, 09-19, 09-21, 09-23, 09-25, 09-27, 09-29) are still open — add more real Lucy moments/photos here as they come up to fill them.
+## Adventure Post — "The Creek at the Cabin" (scheduled, 2 photos)
+
+- **Photos:** `lucybythecreek.jpg` (front-facing, damp, second-guessing the water) and `lucycreek2.jpg` (side profile, studying the creek warily) — same outing, both fresh, added 2026-09-11.
+- **Blog post:** [`_posts/2026-09-11-the-creek-at-the-cabin.md`](https://amotremba.github.io/Lucyscorner/blog/2026/09/11/the-creek-at-the-cabin/) — both photos embedded inline, ties into her established "trails over swimming" personality
+- **Scheduled:** IG + FB + Bluesky ×2 (one post per photo), 2026-09-15 and 2026-09-17, 10:00 AM CDT
+- **Blotato schedule IDs:** 09-15 — Instagram `4365248` · Facebook `4365254` (links to the story) · Bluesky `4365256` (links to the story). 09-17 — Instagram `4365259` · Facebook `4365262` (links to the story) · Bluesky `4365265` (links to the story)
+
+Two adventure photos filled 3 of the 9 "in-between" days. Still open: 09-19, 09-21, 09-23, 09-25, 09-27, 09-29 — add more real Lucy moments/photos here as they come up to fill them.
 
 ---
 
