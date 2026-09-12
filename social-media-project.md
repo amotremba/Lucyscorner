@@ -24,6 +24,23 @@ Tracks the Instagram + Facebook posting workflow for driving traffic to Lucy's C
 
 ---
 
+## Shop Spotlight Batch — Sept 2026 (scheduled)
+
+10 products from the shop, one IG + FB + Bluesky post each, every 2 days 2026-09-12 → 2026-09-30 (interleaved with the Pinterest daily shop-pin queue in `pinterest-project.md`) so the feed doesn't read as a straight run of ads, per the growth plan's guardrail. Each product photo already lives on the site (`dogbed.jpg`, `leash.jpg`, `moongemlick.jpg`, `doggroomingkit.jpg`, `caninecarryouts.jpg`, `buddysofties.jpg`, `bullysticks.jpg`, `biokleen.jpg`, `furryfreshness.jpg`, `dogcrate.jpg`), used directly — no re-upload needed. All link to `#shop` (FB: direct link; IG: "shop link in bio"; Bluesky: direct link).
+
+Schedule: 2026-09-12 (Nap Bed), 09-14 (Leash), 09-16 (Lick Pad), 09-18 (Grooming Kit), 09-20 (Canine Carry Outs), 09-22 (Buddy Softies), 09-24 (Bully Sticks), 09-26 (Bac-Out Cleaner), 09-28 (Furry Freshness), 09-30 (Travel Crate) — all 10:00 AM CDT.
+
+## Adventure Post — "Meeting the Collie Mix at the Cabin" (scheduled)
+
+- **Photo:** `lucymeetscolliemix.jpg` — Lucy nose-to-nose with a 6-month-old collie mix puppy, already noticeably bigger than her, met at the cabin. Fresh photo, added 2026-09-11.
+- **Scheduled:** IG + FB + Bluesky, 2026-09-13, 10:00 AM CDT (fills an "in-between" day in the shop spotlight cadence, per the user's request)
+- **Blotato IDs:** Instagram `e5dc31e7-07d3-4309-8fae-0a9c8d958289` · Facebook `2333a08e-771c-419c-ac1e-6a1d85a81b01` · Bluesky `fb70163e-f22d-4a2f-b1f8-3738438deab8`
+- **Links to:** homepage (no matching blog post exists yet for this story)
+
+Only one adventure photo was on hand, so the other in-between days (09-15, 09-17, 09-19, 09-21, 09-23, 09-25, 09-27, 09-29) are still open — add more real Lucy moments/photos here as they come up to fill them.
+
+---
+
 ## Post #3 — "The New Pup Across the Street" (DRAFT — not yet scheduled)
 
 - **Photo:** TBD — Anne is adding new photos for this one. Unused-photo pool was otherwise empty (only off-theme `20260618_190037.jpg` left), so this cascade is holding for fresh material rather than reusing.

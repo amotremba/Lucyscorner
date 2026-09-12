@@ -126,6 +126,25 @@ Each pin's title/description/link is in the "Pin copy" section below — this ta
 
 ---
 
+## Week 6 — Shop Spotlight (all 10 products)
+
+**Status (2026-09-11):** All 10 pins scheduled via Blotato, 1/day, 9:00 AM CDT, 2026-09-12 → 2026-09-21. Each links to `#shop` (not the raw `amzn.to` link) per the growth plan's affiliate guardrail — genuine-use-case framing, not a bare product ad. Product photos already live on the site, used directly as pin images (no upload step needed).
+
+| Day | Product | Image | Scheduled | Blotato submission ID |
+|-----|---------|-------|-----------|------------------------|
+| 1 | The Nap Bed | `dogbed.jpg` | 2026-09-12 09:00 CDT | `fbf7facb-f83a-4730-94f5-c79d1b41cb71` |
+| 2 | Retractable Leash | `leash.jpg` | 2026-09-13 09:00 CDT | `eff9c827-62b5-446f-a852-28865aeeb640` |
+| 3 | Dog Lick Pad | `moongemlick.jpg` | 2026-09-14 09:00 CDT | `3f731558-2e19-43ed-bf32-95b1ef2e1e98` |
+| 4 | Grooming Kit | `doggroomingkit.jpg` | 2026-09-15 09:00 CDT | `0c964402-ebe4-4426-b378-d80ea8d0da51` |
+| 5 | Canine Carry Outs (Beef) | `caninecarryouts.jpg` | 2026-09-16 09:00 CDT | `756c51e7-6988-4f70-a3e7-94b891bc1356` |
+| 6 | Buddy Softies (Bacon & Cheese) | `buddysofties.jpg` | 2026-09-17 09:00 CDT | `b7766924-0143-4d4d-a168-868f9c851c21` |
+| 7 | Bully Sticks (Party Pack) | `bullysticks.jpg` | 2026-09-18 09:00 CDT | `e561fb83-98dd-4d6d-bfab-f3837db2177e` |
+| 8 | Bac-Out Enzyme Cleaner | `biokleen.jpg` | 2026-09-19 09:00 CDT | `a6faef41-ac67-4a8e-89c0-a116f1fe277d` |
+| 9 | Furry Freshness Spray | `furryfreshness.jpg` | 2026-09-20 09:00 CDT | `9310c4f5-bd8f-4349-bff6-4de5d957a9bc` |
+| 10 | Folding Travel Crate | `dogcrate.jpg` | 2026-09-21 09:00 CDT | `19b46ac7-4497-4fa0-8d1b-913926bdc642` |
+
+Pin copy (title / text / link) for each matches the IG/FB/Bluesky captions logged in `social-media-project.md` under "Shop Spotlight Batch" — same story-framed angle per product, link is `https://amotremba.github.io/Lucyscorner/#shop` throughout.
+
 ## Future Week Ideas
 
 | Week | Theme |
