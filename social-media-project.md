@@ -44,9 +44,22 @@ All 3 photos: converted from Anne's `.avif` originals via `sips -s format jpeg` 
 - Burt's Bees: `https://database.blotato.io/storage/v1/object/public/public_media/d5e38952-0dea-42ba-9c4c-201c796234b9/7c1e3be4-2783-4879-9693-d386cd249aa0.jpg`
 - Zesty Paws: `https://database.blotato.io/storage/v1/object/public/public_media/d5e38952-0dea-42ba-9c4c-201c796234b9/46d792bc-bfc4-4006-b42c-3dd0e9b8a9b5.jpg`
 
-**Blog post drafted:** `_drafts/the-summer-to-fall-itch.md` (Jekyll draft — not live, not committed to `_posts/`). Follows the blueprint voice/template, includes the required affiliate disclosure near the first product link, all 3 products linked.
+**Blog post published:** [`_posts/2026-09-18-the-summer-to-fall-itch.md`](https://amotremba.github.io/Lucyscorner/blog/2026/09/18/the-summer-to-fall-itch/) — committed and pushed (`4eb92bc`). Follows the blueprint voice/template, includes the required affiliate disclosure near the first product link, all 3 products linked.
 
-**Status:** everything drafted and ready for Anne's review. Nothing published, committed, or scheduled yet — carousel copy delivered in-chat for review alongside the blog draft.
+**Instagram carousel scheduled:** 2026-09-23, 10:00 AM CDT — Instagram `a00233b6-0135-459f-8572-cb51b3543e8e`. All 6 slides built in Canva (brand kit `kAGRCFnMe8s`) once the connector came online mid-session, replacing the earlier plan to hand slides 1/5 to Anne manually:
+
+| Slide | Content | Canva design ID | Notes |
+|---|---|---|---|
+| 1 — Hook | Split-screen (summer/fall) + headline | `DAHVmryIJFU` | First AI draft only included one photo + a generic tagline; manually resized/repositioned both photos into a true 50/50 split and removed the tagline via `edit-design`. |
+| 2 — Summer Struggle | `lucysummer.jpg` | — | Real photo, no Canva needed |
+| 3 — Fall Shift | `lucyinleaves.jpg` | — | Real photo, no Canva needed |
+| 4 — The Lucy Method | Burt's Bees shampoo photo | — | Real product photo, no Canva needed |
+| 5 — Checklist | 3-item checklist card | `DAHVmo9iUBI` (page 1 of 4 — see below) | — |
+| 6 — CTA | Lucy's signature portrait + CTA text | `DAHVmuYwmYo` | First AI draft added generic "Joyful" / "Happy" filler words; deleted them via `edit-design`. |
+
+**Canva quirk worth remembering:** asking for a single "checklist" slide via `generate-design` produced a 4-page mini-deck instead (title page + one page per item), and page 4 fabricated a fake business phone number and "available upon request" line — clearly hallucinated, never used. Only page 1 was reworked (headline trimmed, illustration swapped for the real 3-item checklist text) and exported; pages 2-4 were left alone in the Canva doc since there's no delete-page operation, but were never exported or published. Worth specifying "single slide, no sub-pages" more explicitly next time, and always checking every page of a multi-page AI result before using any of it.
+
+**Status:** fully live — blog post published, IG carousel scheduled. Cross-post to FB/Bluesky/Threads/X not done for this piece (brief only asked for IG + blog); say the word if Anne wants the usual cross-post treatment too.
 
 ## Shop Spotlight Batch — Sept 2026 (scheduled)
 
