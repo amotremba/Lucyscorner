@@ -59,7 +59,11 @@ All 3 photos: converted from Anne's `.avif` originals via `sips -s format jpeg` 
 
 **Canva quirk worth remembering:** asking for a single "checklist" slide via `generate-design` produced a 4-page mini-deck instead (title page + one page per item), and page 4 fabricated a fake business phone number and "available upon request" line — clearly hallucinated, never used. Only page 1 was reworked (headline trimmed, illustration swapped for the real 3-item checklist text) and exported; pages 2-4 were left alone in the Canva doc since there's no delete-page operation, but were never exported or published. Worth specifying "single slide, no sub-pages" more explicitly next time, and always checking every page of a multi-page AI result before using any of it.
 
-**Status:** fully live — blog post published, IG carousel scheduled. Cross-post to FB/Bluesky/Threads/X not done for this piece (brief only asked for IG + blog); say the word if Anne wants the usual cross-post treatment too.
+**Cross-posted to FB/Bluesky/Threads/X** (2026-09-23, staggered 5 min after IG, same day): FB gets all 6 carousel slides + a longer caption linking directly to the blog post (`59b1b500-7945-4fb6-bf42-6fe6b9c15516`); Bluesky/Threads/X each get the Slide 1 hook image + a short line linking to the post (`6e46814c-9bdd-4690-ac1b-4fe2a9937290` / `4dd98465-49f8-4694-93b3-3a5a5c301ba1` / `740aec4e-e99f-485e-b19e-b6d28ed0fe5f`).
+
+**Shop section updated:** added K9 Advantix II (Large Dog), Burt's Bees Oatmeal Shampoo, and Zesty Paws Omega-3 to the live `#shop` grid on the homepage — commit `5248575`. Shop now has 13 products.
+
+**Status:** fully live end to end — blog post published, shop grid updated, IG carousel + FB/Bluesky/Threads/X cross-post all scheduled for 2026-09-23.
 
 ## Shop Spotlight Batch — Sept 2026 (scheduled)
 
