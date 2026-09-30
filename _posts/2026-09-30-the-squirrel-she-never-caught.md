@@ -3,7 +3,7 @@ layout: post
 title: "The Squirrel She Never Caught"
 date: 2026-09-30
 tag: "SQUIRREL WATCH"
-substack: https://substack.com/@anneotremba/note/c-349759473
+substack: https://anneotremba.substack.com/p/squirrel-watch
 ---
 
 Twenty-two minutes of pursuit, and the scoreboard read: squirrel uncaught, Lucy deeply invested.
