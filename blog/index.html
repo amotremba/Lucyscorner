@@ -13,6 +13,7 @@ title: Adventures
       {% if post.tag %}<span style="font-size:13px; font-weight:700; color:oklch(56% 0.11 40);">{{ post.tag }}</span>{% endif %}
       <h3 style="font-family:'Lora',serif; font-size:19px; color:oklch(28% 0.03 40); margin:10px 0;">{{ post.title }}</h3>
       <p style="font-size:14px; color:oklch(42% 0.03 45); margin:0;">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      {% if post.substack %}<span style="display:inline-block; margin-top:12px; font-size:12px; font-weight:700; color:oklch(50% 0.02 50); background:oklch(97% 0.015 70); border:1px solid oklch(88% 0.02 60); border-radius:100px; padding:4px 10px;">Also on Substack</span>{% endif %}
     </a>
     {% endfor %}
   </div>
