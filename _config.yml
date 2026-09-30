@@ -14,3 +14,11 @@ feed:
   path: blog/feed.xml
 
 markdown: kramdown
+
+# Working notes, not site content. Jekyll copies root-level .md files into the
+# build output, so these would otherwise be served at /<name>.md alongside the
+# published pages.
+exclude:
+  - substack-drafts.md
+  - substack-welcome-email-draft.md
+  - substack-about-page-draft.md
