@@ -19,6 +19,38 @@ Trackers: [`social-media-project.md`](social-media-project.md) (Instagram, Faceb
 
 ---
 
+## Analytics
+
+**Cloudflare Web Analytics**, free tier, added 2026-09-30. Snippet lives in
+`_layouts/base.html`, `index.html`, and `album.html` (the homepage and album
+don't use a layout, so they need their own copy).
+
+Cloudflare gives referrer, geography, and pageview data — enough to answer "did
+this post drive visits." No funnels or A/B testing, which aren't needed yet.
+
+**⚠️ Token still needs setting.** The script ships with the placeholder
+`REPLACE_WITH_YOUR_CF_TOKEN`. Until it's replaced the beacon loads but records
+nothing. Get the real token from
+[dash.cloudflare.com](https://dash.cloudflare.com) → Web Analytics → Add Site
+(`amotremba.github.io/Lucyscorner`).
+
+**⚠️ Verify it records before trusting it.** Cloudflare only reports traffic for
+sites behind its proxy, and GitHub Pages may not qualify. Check the dashboard
+within 24h of setting the token. If it shows nothing, this approach won't work
+and Umami's free tier is the fallback.
+
+### Metrics that matter
+
+- **Primary: Substack subscribers.** The durable asset, directly countable,
+  and doesn't inflate from a viral post that retains nobody.
+- **Secondary: sessions per post, by referrer.** Which platform actually
+  delivers visits — Instagram, Pinterest, and the Substack crosslink are all
+  candidates and worth comparing.
+- **Affiliate clicks** aren't directly measurable from Cloudflare. Judge them
+  indirectly via sessions landing on `/` or `/#shop`.
+
+---
+
 ## Goal
 
 Grow an audience that drives traffic to Lucy's Corner, where the revenue is:
