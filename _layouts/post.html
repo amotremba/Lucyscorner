@@ -16,6 +16,16 @@ layout: base
     {{ content }}
   </div>
 
+  {% if page.substack %}
+  <div style="margin-top:40px; padding:24px; border-radius:18px; border:1px solid oklch(85% 0.02 60); display:flex; gap:18px; align-items:center; flex-wrap:wrap;">
+    <div style="flex:1 1 260px;">
+      <p style="margin:0; font-weight:700; color:oklch(28% 0.03 40);">Also on Substack</p>
+      <p style="margin:4px 0 0; font-size:14px; color:oklch(45% 0.03 45);">This story goes out to email subscribers too.</p>
+    </div>
+    <a href="{{ page.substack }}" target="_blank" rel="noopener" style="background:oklch(28% 0.03 40); color:oklch(98% 0.01 70); padding:12px 26px; border-radius:100px; font-weight:700; font-size:14px; text-decoration:none; display:inline-block;">Read on Substack →</a>
+  </div>
+  {% endif %}
+
   <div style="margin-top:48px; padding:28px; border-radius:18px; background:oklch(93% 0.02 65); text-align:center;">
     <p style="margin:0 0 16px; font-weight:700; color:oklch(28% 0.03 40);">More Lucy in your feed?</p>
     <a href="{{ '/' | relative_url }}#shop" style="background:oklch(56% 0.11 40); color:oklch(98% 0.01 70); padding:12px 26px; border-radius:100px; font-weight:700; font-size:14px; display:inline-block;">See Lucy's Favorite Things →</a>
