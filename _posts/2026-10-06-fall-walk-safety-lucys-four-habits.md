@@ -3,6 +3,7 @@ layout: post
 title: "Fall Walk Safety: Lucy's 4 Habits"
 date: 2026-10-06
 tag: "FALL"
+substack: https://anneotremba.substack.com/p/4-habits-that-make-fall-dog-walks
 ---
 
 ![Lucy lying in a pile of orange and red fall leaves](/Lucyscorner/lucyinleaves.jpg)
