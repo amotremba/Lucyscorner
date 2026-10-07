@@ -189,7 +189,16 @@ Link for all five: https://amotremba.github.io/Lucyscorner/blog/2026/10/06/fall-
 | 4 — Check for Ticks | 2026-10-13 09:00 CDT | `7f7d7f46-ac1a-42c6-8c93-5da346eeeb98` |
 | 5 — Cozy Down Time | 2026-10-15 09:00 CDT | `abbc3f14-fe67-4a6c-aea2-04e05dce50f0` |
 
-The blog post (`_posts/2026-10-06-fall-walk-safety-lucys-four-habits.md`) went live 2026-10-06. The matching IG/FB carousel (`carousel-fall-1..5.png`) is built but has no caption or schedule yet.
+The blog post (`_posts/2026-10-06-fall-walk-safety-lucys-four-habits.md`) went live 2026-10-06.
+
+**IG/FB carousel (`carousel-fall-1..5.png`, 1080×1350, all five slides), scheduled 2026-10-06:**
+
+| Platform | Scheduled | Blotato submission ID |
+|----------|-----------|------------------------|
+| Instagram (account `32678`, now @lucyscornerhome; Blotato still labels it aotremba2026) | 2026-10-07 10:00 CDT | `bde6ebde-71b3-47ba-835e-43dd8a2f318b` |
+| Facebook (Lucy's Corner page `1063596216837129`) | 2026-10-07 10:05 CDT | `f69acbe4-5b72-4abd-a64a-b95d5fdef295` |
+
+IG caption says "full post linked in our bio" (IG allows max 5 hashtags — first attempt with 8 was rejected); FB caption links the blog post directly. If the IG post fails after the handle rename, reconnect the account in Blotato and reschedule.
 
 ## Future Week Ideas
 
