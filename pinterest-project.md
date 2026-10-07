@@ -145,6 +145,52 @@ Each pin's title/description/link is in the "Pin copy" section below — this ta
 
 Pin copy (title / text / link) for each matches the IG/FB/Bluesky captions logged in `social-media-project.md` under "Shop Spotlight Batch" — same story-framed angle per product, link is `https://amotremba.github.io/Lucyscorner/#shop` throughout.
 
+## Fall Walk Safety Pins (scheduled 2026-10-06)
+
+Five 1000×1500 pins built in Affinity (matching the 5-slide IG/FB carousel), all linking to the blog post `_posts/2026-10-06-fall-walk-safety-lucys-four-habits.md`. Source images are in `~/Desktop/Lucys-Corner-Work/` (`pin-fall-1.png` … `pin-fall-5.png`), not committed to the repo. Board: Doggie Days. Account: anne8133 (Blotato `7441`).
+
+Link for all five: https://amotremba.github.io/Lucyscorner/blog/2026/10/06/fall-walk-safety-lucys-four-habits/
+
+| Pin | Image | Title | Photo |
+|-----|-------|-------|-------|
+| 1 | `pin-fall-1.png` | Fall Walk Safety: 4 Habits for Happier Autumn Dog Walks | `lucyinleaves.jpg` |
+| 2 | `pin-fall-2.png` | Fall Dog Walk Hazards: Acorns, Mushrooms and "Leave It" | `lucysummer.jpg` |
+| 3 | `pin-fall-3.png` | How to Keep Your Dog Visible on Dark Fall Evening Walks | `websitelucy.jpg` |
+| 4 | `pin-fall-4.png` | Ticks in Fall: Why You Still Need to Check Your Dog | `lucybythecreek.jpg` |
+| 5 | `pin-fall-5.png` | The Best Way to End a Fall Dog Walk: Cozy Down Time | `naptime.jpg` |
+
+**Pin 1 — Cover**
+- Title: Fall Walk Safety: 4 Habits for Happier Autumn Dog Walks
+- Description: Fall walks are the best, and they come with a few extra things to watch for. Lucy's four simple habits cover what's on the ground, staying visible in the early dark, checking for ticks, and a cozy recovery afterward. Save this for your next trail day. #dogwalking #fallwithdogs #doghealth
+
+**Pin 2 — Mind the Ground**
+- Title: Fall Dog Walk Hazards: Acorns, Mushrooms and "Leave It"
+- Description: Acorns can upset a dog's stomach, and some wild mushrooms are toxic. Fall is when both show up. Teach a solid "leave it," and call your vet right away if your dog eats a wild mushroom. More fall walk habits from Lucy on the blog. #dogsafety #leaveit #fallpetsafety
+
+**Pin 3 — Be Seen**
+- Title: How to Keep Your Dog Visible on Dark Fall Evening Walks
+- Description: Days get shorter in fall, so more walks happen at dusk. A clip-on collar light makes it easier for drivers to spot you and your dog. Lucy's black coat disappears after sunset, so a light is part of her routine. #dogwalkingtips #fallpetsafety #cockerspaniel
+
+**Pin 4 — Check for Ticks**
+- Title: Ticks in Fall: Why You Still Need to Check Your Dog
+- Description: Cooler weather doesn't end tick season. Ticks are active any time it's above freezing, and deer ticks are most active in fall. Check ears, paws and belly after woods walks and ask your vet about year-round prevention. #ticks #dogcare #fallwithdogs
+
+**Pin 5 — Cozy Down Time**
+- Title: The Best Way to End a Fall Dog Walk: Cozy Down Time
+- Description: Wipe the muddy paws, towel off the coat, and let your dog collapse in a warm bed. Lucy's post-walk routine is half the fun of autumn. Read all four of her fall walk habits on the blog. #dogbed #fallwithdogs #cockerspaniellife
+
+**Scheduled 2026-10-06** via Blotato (Pinterest account `7441`, board Doggie Days `432979020365229968`), 9:00 AM CDT (14:00 UTC), interleaved with the Shop Spotlight pins that already occupy Oct 8, 10, 12, 14, 16, 18 and 20. Images uploaded with `blotato_create_presigned_upload_url`; each pin has alt text.
+
+| Pin | Scheduled | Blotato submission ID |
+|-----|-----------|------------------------|
+| 1 — Fall Walk Safety (cover) | 2026-10-07 09:00 CDT | `af8f11c4-0bcb-4e94-aa38-0fc6b8415a0d` |
+| 2 — Mind the Ground | 2026-10-09 09:00 CDT | `c0a4fe45-22b1-428f-8a86-b35eeb720bb8` |
+| 3 — Be Seen | 2026-10-11 09:00 CDT | `ecae04a6-ac3f-4d52-b60b-82448e6f9d70` |
+| 4 — Check for Ticks | 2026-10-13 09:00 CDT | `7f7d7f46-ac1a-42c6-8c93-5da346eeeb98` |
+| 5 — Cozy Down Time | 2026-10-15 09:00 CDT | `abbc3f14-fe67-4a6c-aea2-04e05dce50f0` |
+
+The blog post (`_posts/2026-10-06-fall-walk-safety-lucys-four-habits.md`) went live 2026-10-06. The matching IG/FB carousel (`carousel-fall-1..5.png`) is built but has no caption or schedule yet.
+
 ## Future Week Ideas
 
 | Week | Theme |
