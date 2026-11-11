@@ -15,37 +15,37 @@ Shopping for a dog person (or for the dog herself) is easier when you sort by wh
 
 ## For the dog who works for treats
 
-**[Canine Carry Outs (Beef)](https://amzn.to/4qUKXsB)**: beef-flavored treats for training and trail snacks. A pocket-friendly stocking stuffer.
+**[Canine Carry Outs (Beef)](https://amzn.to/4qUKXsB){: data-umami-event="amazon-click" data-umami-event-product="canine-carry-outs" data-umami-event-source="post-gifts-for-dog-people"}**: beef-flavored treats for training and trail snacks. A pocket-friendly stocking stuffer.
 
-**[Buddy Softies (Bacon & Cheese)](https://amzn.to/4qSE62T)**: soft, small treats that are easy to break into smaller pieces, which is handy for training sessions.
+**[Buddy Softies (Bacon & Cheese)](https://amzn.to/4qSE62T){: data-umami-event="amazon-click" data-umami-event-product="buddy-softies" data-umami-event-source="post-gifts-for-dog-people"}**: soft, small treats that are easy to break into smaller pieces, which is handy for training sessions.
 
-**[Bully Sticks (Party Pack)](https://amzn.to/3UArjG9)**: a long-lasting chew, and a pack gives you a few to keep in rotation. Chews are best given while you're nearby, and it's worth asking your vet which ones suit your dog.
+**[Bully Sticks (Party Pack)](https://amzn.to/3UArjG9){: data-umami-event="amazon-click" data-umami-event-product="bully-sticks" data-umami-event-source="post-gifts-for-dog-people"}**: a long-lasting chew, and a pack gives you a few to keep in rotation. Chews are best given while you're nearby, and it's worth asking your vet which ones suit your dog.
 
 ## For the dog who needs something to do
 
-**[Dog Lick Pad](https://amzn.to/3Simv7u)**: spread a little something on the mat and let your dog lick. It keeps a dog busy during baths or while you're cooking holiday dinner, which is when dogs tend to appear underfoot.
+**[Dog Lick Pad](https://amzn.to/3Simv7u){: data-umami-event="amazon-click" data-umami-event-product="lick-pad" data-umami-event-source="post-gifts-for-dog-people"}**: spread a little something on the mat and let your dog lick. It keeps a dog busy during baths or while you're cooking holiday dinner, which is when dogs tend to appear underfoot.
 
 ## For the dog who travels
 
 Holiday trips mean cars, cabins, and relatives' living rooms.
 
-**[Folding Travel Crate](https://amzn.to/4xCCZqn)**: folds flat for the car, a cabin, or a hotel room, so your dog has a familiar spot wherever you end up.
+**[Folding Travel Crate](https://amzn.to/4xCCZqn){: data-umami-event="amazon-click" data-umami-event-product="travel-crate" data-umami-event-source="post-gifts-for-dog-people"}**: folds flat for the car, a cabin, or a hotel room, so your dog has a familiar spot wherever you end up.
 
-**[Retractable Leash](https://amzn.to/3TKtiar)**: room to sniff on the trail, and easy to reel in when something interesting shows up.
+**[Retractable Leash](https://amzn.to/3TKtiar){: data-umami-event="amazon-click" data-umami-event-product="retractable-leash" data-umami-event-source="post-gifts-for-dog-people"}**: room to sniff on the trail, and easy to reel in when something interesting shows up.
 
 ## For the dog who naps professionally
 
-**[The Nap Bed](https://amzn.to/4wMSoEk)**: Lucy's go-to spot for the post-walk collapse. If you only buy one thing for a dog who already has everything, a good bed is hard to beat.
+**[The Nap Bed](https://amzn.to/4wMSoEk){: data-umami-event="amazon-click" data-umami-event-product="nap-bed" data-umami-event-source="post-gifts-for-dog-people"}**: Lucy's go-to spot for the post-walk collapse. If you only buy one thing for a dog who already has everything, a good bed is hard to beat.
 
 ## For the dog's winter coat and skin
 
 Dry indoor air and cold weather can be rough on a coat.
 
-**[Zesty Paws Wild Alaskan Omega-3](https://amzn.to/3TCnOyQ)**: a salmon and pollock oil you mix into food for skin and coat support.
+**[Zesty Paws Wild Alaskan Omega-3](https://amzn.to/3TCnOyQ){: data-umami-event="amazon-click" data-umami-event-product="zesty-paws-omega3" data-umami-event-source="post-gifts-for-dog-people"}**: a salmon and pollock oil you mix into food for skin and coat support.
 
-**[Burt's Bees Oatmeal Shampoo](https://amzn.to/4iVIcFB)**: an oatmeal and honey formula for dry coats.
+**[Burt's Bees Oatmeal Shampoo](https://amzn.to/4iVIcFB){: data-umami-event="amazon-click" data-umami-event-product="burts-bees-shampoo" data-umami-event-source="post-gifts-for-dog-people"}**: an oatmeal and honey formula for dry coats.
 
-**[Grooming Kit](https://amzn.to/3REf2Q2)**: the basics for keeping a cocker's coat tidy at home.
+**[Grooming Kit](https://amzn.to/3REf2Q2){: data-umami-event="amazon-click" data-umami-event-product="grooming-kit" data-umami-event-source="post-gifts-for-dog-people"}**: the basics for keeping a cocker's coat tidy at home.
 
 ## A few gift-giving notes
 

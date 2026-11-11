@@ -25,11 +25,11 @@ Then the actual autumn problem shows up: the air dries out, and so does everythi
 
 *(Quick disclosure: the links below are Amazon affiliate links — if you shop through them, Lucy earns a small commission at no extra cost to you.)*
 
-**The Summer Protector: [K9 Advantix II, Large Dog](https://amzn.to/4rjnp0L)** — flea and tick prevention that keeps working past the point the weather cools off, because the bugs don't read a calendar.
+**The Summer Protector: [K9 Advantix II, Large Dog](https://amzn.to/4rjnp0L){: data-umami-event="amazon-click" data-umami-event-product="k9-advantix" data-umami-event-source="post-the-summer-to-fall-itch"}** — flea and tick prevention that keeps working past the point the weather cools off, because the bugs don't read a calendar.
 
-**The Fall Hydrator: [Burt's Bees for Dogs Oatmeal Shampoo](https://amzn.to/4iVIcFB)** — an oatmeal-and-honey formula for the stretch when a regular bath starts leaving her coat drier than it found it.
+**The Fall Hydrator: [Burt's Bees for Dogs Oatmeal Shampoo](https://amzn.to/4iVIcFB){: data-umami-event="amazon-click" data-umami-event-product="burts-bees-shampoo" data-umami-event-source="post-the-summer-to-fall-itch"}** — an oatmeal-and-honey formula for the stretch when a regular bath starts leaving her coat drier than it found it.
 
-**The Internal Shield: [Zesty Paws Wild Alaskan Omega-3](https://amzn.to/3TCnOyQ)** — a salmon-and-pollock oil blend mixed into her food for skin and coat support from the inside, which matters more once the air stops doing the humidity's job for her.
+**The Internal Shield: [Zesty Paws Wild Alaskan Omega-3](https://amzn.to/3TCnOyQ){: data-umami-event="amazon-click" data-umami-event-product="zesty-paws-omega3" data-umami-event-source="post-the-summer-to-fall-itch"}** — a salmon-and-pollock oil blend mixed into her food for skin and coat support from the inside, which matters more once the air stops doing the humidity's job for her.
 
 ## Lucy's official position
 

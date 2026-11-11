@@ -40,9 +40,9 @@ The best part of a fall walk is what happens when it's over. We wipe off muddy p
 
 *(Quick disclosure: the links below are Amazon affiliate links. If you shop through them, Lucy earns a small commission at no extra cost to you.)*
 
-**For the tick check: [K9 Advantix II, Large Dog](https://amzn.to/4rjnp0L)**: flea and tick prevention that keeps working after the weather cools off. As always, check with your vet about the right option for your dog.
+**For the tick check: [K9 Advantix II, Large Dog](https://amzn.to/4rjnp0L){: data-umami-event="amazon-click" data-umami-event-product="k9-advantix" data-umami-event-source="post-fall-walk-safety-lucys-four-habits"}**: flea and tick prevention that keeps working after the weather cools off. As always, check with your vet about the right option for your dog.
 
-**For the cozy part: [The Nap Bed](https://amzn.to/4wMSoEk)**: Lucy's go-to spot for the post-walk collapse.
+**For the cozy part: [The Nap Bed](https://amzn.to/4wMSoEk){: data-umami-event="amazon-click" data-umami-event-product="nap-bed" data-umami-event-source="post-fall-walk-safety-lucys-four-habits"}**: Lucy's go-to spot for the post-walk collapse.
 
 ## Lucy's official position
 
